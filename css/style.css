@@ -402,11 +402,13 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .portfolio__item {
     background: var(--clr-accent);
+    border: 1.5px solid var(--clr-light);
     overflow: hidden;
 }
 
@@ -486,4 +488,27 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.live-demo-div {
+    display: flex;
+    justify-content: center;
+}
+
+.live-demo {
+    background: var(--clr-accent);
+    text-decoration: none;
+    color: var(--clr-dark);
+    padding: 1em;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.live-demo:hover,
+.live-demo:focus {
+    cursor: pointer;
+    background: var(--clr-dark);
+    color: var(--clr-accent);
 }
