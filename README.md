@@ -1,11 +1,6 @@
-# Portfolio
+# My Portfolio
 
-Quick start:
+Deployed with Netlify.
 
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
+Here is the link: <a href="https://kats-javascript-portfolio.netlify.app/" target="_blank"> Click to see Kat's Portfolio</a>
 
